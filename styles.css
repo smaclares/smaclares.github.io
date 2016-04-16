@@ -1,4 +1,18 @@
+body {
+  background-color: #34495E;
+}
+
 aside {
+  background-color: #34495e;
+  border-radius: 10px;
+  color: #ecf0f1;
+  height: 80vh;
+  margin: 40px;
   padding: 20px;
+  width: 400px;
   text-align: center;
+}
+
+aside h1 {
+  font-family: 'Courgette', cursive;
 }
