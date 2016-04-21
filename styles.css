@@ -1,18 +1,58 @@
 body {
-  background-color: #34495E;
+  background-color: white;
 }
 
 aside {
   background-color: #34495e;
-  border-radius: 10px;
   color: #ecf0f1;
-  height: 80vh;
-  margin: 40px;
-  padding: 20px;
-  width: 400px;
+  height: 100%;
+  padding: 50px;
+  width: 500px;
   text-align: center;
 }
 
 aside h1 {
   font-family: 'Courgette', cursive;
+}
+
+#about-header h1{
+  cursor: default;
+  color: #34495e;
+  font-size: 75px;
+  margin: 20px;
+  padding: 50px;
+  text-align: right;
+}
+
+#capital {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#about-intro {
+  cursor: default;
+  color: #34495e;
+  font-size: 25px;
+  padding: 100px;
+  text-align: left;
+}
+
+.img-circle {
+  height: 100px;
+  width: 100px;
+}
+
+.nav-pills {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+.nav-pills li a{
+  color: white;
+  font-size: 20px;
+}
+
+.nav-pills li a:hover{
+  background-color: #2c3e50;
 }

@@ -4,27 +4,38 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.css"></link>
   <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'></link>
   <link rel="stylesheet" type="text/css" href="styles.css"></link>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
 
 <body>
   <div class="row">
     <div class="col-xs-6">
           <aside>
-            <header>
+            <header id="menu-header">
               <h1>Samantha</h1>
-              <hr>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
               <h4>Junior Web Designer and Developer</h4>
             </header>
             <section>
-              <ol class="carousel-indicators">
-                <li class="active" id="about"></li>
-                <li id="portfolio"></li>
-                <li id="contact"></li>
-              </ol>
+              <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="#">About</li>
+                <li><a href="#">Portfolio</li>
+                <li><a href="#">Contact</li>
+              </ul>
             </section>
           </aside>
     </div>
     <div class="col-xs-6">
+      <div class="main-view">
+        <div class="about">
+          <header id="about-header">
+            <h1>simple style.</h1>
+          </header>
+          <p id="about-intro"><span id="capital">M</span>y name is Samantha and I am a Junior Web Designer and FullStack Web Developer.
+            I work with a variety of tools, mainly with HTML/Jade/CSS/SCSS/JS and Meteor.js.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 
