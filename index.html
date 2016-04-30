@@ -2,7 +2,8 @@
   <title>Samantha | Web Development</title>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.css"></link>
-  <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'></link>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="styles.css"></link>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
@@ -11,22 +12,23 @@
   <div class="row">
     <div class="col-xs-6">
           <aside>
-            <header id="menu-header">
-              <h1>Samantha</h1>
-              <i class="fa fa-heart-o" aria-hidden="true"></i>
-              <h4>Junior Web Designer and Developer</h4>
-            </header>
             <section>
               <ul class="nav nav-pills nav-stacked">
-                <li class="active"><a href="#">About</li>
+                <li class><a href="#">About</li>
                 <li><a href="#">Portfolio</li>
                 <li><a href="#">Contact</li>
               </ul>
             </section>
           </aside>
     </div>
-    <div class="col-xs-6">
-      <div class="main-view">
+    <div class="col-xs-6" id="main-view">
+        <div class="main-image">
+          <header id="main-header">
+            <h1>Samantha</h1>
+            <i class="fa fa-power-off" aria-hidden="true"></i>
+            <h4>Junior Web Designer and Developer</h4>
+          </header>
+        </div>
         <div class="about">
           <header id="about-header">
             <h1>simple style.</h1>
@@ -35,7 +37,42 @@
             I work with a variety of tools, mainly with HTML/Jade/CSS/SCSS/JS and Meteor.js.
           </p>
         </div>
-      </div>
+        <div class="portfolio">
+          <header id="portfolio-header">
+            <h1>Portfolio</h1>
+          </header>
+          <hr>
+          <div class="portfolio-info">
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <i class="fa fa-clock-o" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">PomoTask</h4>
+                <p>An application built in Meteor that allows users
+                to assign a task to a pomoclock. Makes getting things
+               done more painless!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact">
+          <header id="contact-header">
+            <h1>Contact Me:</h1>
+          </header>
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="email-icon">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="col-xs-6">
+              <p id="email-address">sam.j.maclaren@gmail.com</p>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
 

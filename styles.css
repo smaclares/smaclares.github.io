@@ -1,18 +1,49 @@
 body {
   background-color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 aside {
   background-color: #34495e;
   color: #ecf0f1;
+  position: fixed;
   height: 100%;
   padding: 50px;
-  width: 500px;
   text-align: center;
 }
 
 aside h1 {
   font-family: 'Courgette', cursive;
+}
+
+.main-image {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('https://images.unsplash.com/photo-1414690165279-49ab0a9a7e66?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d36ea3a39c51d6711a4ccbd1d37124b1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -785px;
+  margin-top: -40px;
+  height: 100vh;
+}
+
+#main-header{
+  color: white;
+  position: relative;
+  top: 40%;
+  text-align: center;
+}
+
+#main-header h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 100px;
+}
+
+#main-header .fa {
+  font-size: 55px;
+  opacity: 0.5;
+}
+
+.about {
+  height: 100vh;
 }
 
 #about-header h1{
@@ -37,15 +68,57 @@ aside h1 {
   text-align: left;
 }
 
-.img-circle {
-  height: 100px;
-  width: 100px;
+.portfolio {
+  background-color: #2c3e50;
+  color: white;
+  height: 100vh;
+  margin-left: -784px;
+  padding: 200px;
+}
+
+#portfolio-header h1{
+  cursor: default;
+  color: #16a085;
+  font-size: 90px;
+  text-align: center;
+}
+
+.portfolio .media-heading {
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.portfolio .media-left {
+  font-size: 100px;
+}
+
+.portfolio .media-body p{
+  font-size: 30px;
+}
+
+.contact {
+  height: 100vh;
+}
+
+#contact-header {
+  margin-left: -700px;
+  padding: 50px;
+}
+
+.contact .email-icon {
+  color: #16a085; 
+  font-size: 100px;
+  float: right;
+}
+
+.contact #email-address {
+  font-size: 40px;
 }
 
 .nav-pills {
   position: relative;
   top: 50%;
-  transform: translateY(50%);
+  transform: translateY(140%);
 }
 
 .nav-pills li a{
