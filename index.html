@@ -9,72 +9,91 @@
 </head>
 
 <body>
-  <div class="row">
-    <div class="col-xs-6">
-          <aside>
-            <section>
-              <ul class="nav nav-pills nav-stacked">
-                <li class><a href="#">About</li>
-                <li><a href="#">Portfolio</li>
-                <li><a href="#">Contact</li>
-              </ul>
-            </section>
-          </aside>
-    </div>
-    <div class="col-xs-6" id="main-view">
-        <div class="main-image">
-          <header id="main-header">
-            <h1>Samantha</h1>
-            <i class="fa fa-power-off" aria-hidden="true"></i>
-            <h4>Junior Web Designer and Developer</h4>
-          </header>
+  <div class="container-fluid">
+    <nav class="navbar navbar-inverted navbar-fixed-top">
+      <div class="container">
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </div>
-        <div class="about">
-          <header id="about-header">
-            <h1>simple style.</h1>
-          </header>
-          <p id="about-intro"><span id="capital">M</span>y name is Samantha and I am a Junior Web Designer and FullStack Web Developer.
+      </div>
+    </nav>
+ </div>
+
+  <div class="main-image">
+    <header id="main-header">
+      <h1>Samantha</h1>
+      <i class="fa fa-power-off" aria-hidden="true"></i>
+      <h4>Junior Web Designer and Developer</h4>
+    </header>
+  </div>
+
+  <div class="about">
+    <header id="about-header">
+      <h1>simple style.</h1>
+    </header>
+    <div class="row">
+      <div class="col-xs-6">
+        <img id="computer-icon" src="http://sfile.f-static.com/site/live/images/home/1409323491_web_design_website_monitor_imac_flat_icon_symbol-256.png">
+      </div>
+      <div class="col-xs-6">
+        <div class="about-info">
+          <p><span id="capital">M</span>y name is Samantha and I am a Junior Web Designer and FullStack Web Developer.
             I work with a variety of tools, mainly with HTML/Jade/CSS/SCSS/JS and Meteor.js.
           </p>
+          <p>My focus is on building responsive, elegant and bullet-proof web applications.
+            I have been building applications for two years, and I hope to continue
+            honing my craft.
+          </p>
+          <p>
+            I'm always looking for new projects to work on, so feel free
+            to contact me for freelance work!
+          </p>
         </div>
-        <div class="portfolio">
-          <header id="portfolio-header">
-            <h1>Portfolio</h1>
-          </header>
-          <hr>
-          <div class="portfolio-info">
-            <div class="media">
-              <div class="media-left">
-                <a href="#">
-                  <i class="fa fa-clock-o" aria-hidden="true"></i>
-                </a>
-              </div>
-              <div class="media-body">
-                <h4 class="media-heading">PomoTask</h4>
-                <p>An application built in Meteor that allows users
-                to assign a task to a pomoclock. Makes getting things
-               done more painless!</p>
-              </div>
-            </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio">
+    <header id="portfolio-header">
+      <h1>Portfolio</h1>
+    </header>
+    <hr>
+    <div class="portfolio-info">
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+            </a>
           </div>
-        </div>
-        <div class="contact">
-          <header id="contact-header">
-            <h1>Contact Me:</h1>
-          </header>
-          <div class="row">
-            <div class="col-xs-6">
-              <div class="email-icon">
-                <i class="fa fa-envelope-o" aria-hidden="true"></i>
-              </div>
-            </div>
-            <div class="col-xs-6">
-              <p id="email-address">sam.j.maclaren@gmail.com</p>
-            </div>
+          <div class="media-body">
+            <h4 class="media-heading">PomoTask</h4>
+            <p>An application built in Meteor that allows users
+            to assign a task to a pomoclock. Makes getting things
+           done more painless!</p>
           </div>
         </div>
     </div>
   </div>
+
+  <div class="contact">
+    <header id="contact-header">
+      <h1>Contact Me:</h1>
+    </header>
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="email-icon">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <p id="email-address">sam.j.maclaren@gmail.com</p>
+      </div>
+    </div>
+   </div>
 
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
