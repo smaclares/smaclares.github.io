@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #95a5a6;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -10,6 +10,11 @@ nav {
 
 .navbar {
   padding: 10px;
+}
+
+.navbar-brand {
+  background-color: #ecf0f1;
+  border-radius: 10px;
 }
 
 .navbar li a{
