@@ -1,11 +1,11 @@
 body {
-  background-color: #95a5a6;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
 nav {
   background-color: white;
   position: fixed;
+  box-shadow: 2px 2px 8px #141f1f;
 }
 
 .navbar {
@@ -15,6 +15,7 @@ nav {
 .navbar-brand {
   background-color: #ecf0f1;
   border-radius: 10px;
+  font-family: 'Pacifico', cursive;
 }
 
 .navbar li a{
@@ -38,12 +39,20 @@ nav {
 
 #main-header h1{
   font-family: 'Pacifico', cursive;
-  font-size: 100px;
+  font-size: 150px;
 }
 
-#main-header .fa {
+#main-header .fa-power-off {
   font-size: 55px;
   opacity: 0.5;
+}
+
+#main-header #social-media {
+  font-size: 25px;
+}
+
+#main-header #social-media .fa{
+  margin: 20px;
 }
 
 #computer-icon {
@@ -54,6 +63,7 @@ nav {
 
 .about {
   height: 100vh;
+  padding: 90px;
 }
 
 .about-info {
@@ -91,9 +101,12 @@ nav {
   text-align: center;
 }
 
+.portfolio {
+  padding: 100px;
+}
+
 .portfolio .portfolio-info {
   height: 400px;
-  overflow-y: scroll;
 }
 
 .portfolio .media {
@@ -114,18 +127,42 @@ nav {
 
 .contact {
   height: 100vh;
+  padding: 100px;
 }
 
-#contact-header {
-  padding: 50px;
+.contact label {
+  font-size: 25px;
 }
 
-.contact .email-icon {
+.contact input {
+  width: 300px;
+}
+
+.contact .btn {
+  font-size: 25px;
+}
+
+.contact .fa-envelope-o {
+  border: solid  #16a085 5px;
   color: #16a085;
-  font-size: 100px;
-  float: right;
+  font-size: 200px;
+  margin-left: 100px;
+  padding: 50px;
 }
 
 .contact #email-address {
   font-size: 40px;
+}
+
+.footer {
+  padding: 100px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 30px;
+}
+
+.footer #social-media .fa{
+  margin: 20px;
 }
