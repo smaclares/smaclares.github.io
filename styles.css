@@ -5,7 +5,7 @@ body {
 nav {
   background-color: white;
   position: fixed;
-  box-shadow: 2px 2px 8px #141f1f;
+  box-shadow: 4px 4px 15px #141f1f;
 }
 
 .navbar {
@@ -63,11 +63,15 @@ nav {
 
 .about {
   height: 100vh;
-  padding: 90px;
+  padding: 60px;
 }
 
 .about-info {
   padding: 40px;
+}
+
+.about .about-info b {
+  font-size: 45px;
 }
 
 #about-header h1{
@@ -103,6 +107,10 @@ nav {
 
 .portfolio {
   padding: 100px;
+}
+
+.portfolio .fa{
+  margin: 20px;
 }
 
 .portfolio .portfolio-info {
@@ -147,6 +155,7 @@ nav {
   color: #16a085;
   font-size: 200px;
   margin-left: 100px;
+  margin-top: 50px;
   padding: 50px;
 }
 
