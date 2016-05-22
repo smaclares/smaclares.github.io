@@ -63,7 +63,7 @@ nav {
 
 .about {
   height: 100vh;
-  padding: 10px;
+  padding: 30px;
 }
 
 #about-header h1{
@@ -87,7 +87,7 @@ nav {
   background-color: #2c3e50;
   color: white;
   height: 100vh;
-  padding: 10px;
+  padding: 40px;
 }
 
 #portfolio-header h1{
@@ -123,7 +123,7 @@ nav {
 
 .contact {
   height: 100vh;
-  padding: 100px;
+  padding: 40px;
 }
 
 .contact label {
