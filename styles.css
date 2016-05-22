@@ -63,22 +63,14 @@ nav {
 
 .about {
   height: 100vh;
-  padding: 60px;
-}
-
-.about-info {
-  padding: 40px;
-}
-
-.about .about-info b {
-  font-size: 45px;
+  padding: 10px;
 }
 
 #about-header h1{
   cursor: default;
   color: #34495e;
-  font-size: 75px;
-  margin: 30px;
+  font-size: 45px;
+  padding: 15px;
   text-align: right;
 }
 
@@ -95,7 +87,7 @@ nav {
   background-color: #2c3e50;
   color: white;
   height: 100vh;
-  padding: 50px;
+  padding: 10px;
 }
 
 #portfolio-header h1{
@@ -103,10 +95,6 @@ nav {
   color: #16a085;
   font-size: 90px;
   text-align: center;
-}
-
-.portfolio {
-  padding: 100px;
 }
 
 .portfolio .fa{
@@ -164,6 +152,7 @@ nav {
 }
 
 .footer {
+  margin-top: 25%;
   padding: 100px;
   text-align: center;
 }
