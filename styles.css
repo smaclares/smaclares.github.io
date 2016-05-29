@@ -5,7 +5,7 @@ body {
 nav {
   background-color: white;
   position: fixed;
-  box-shadow: 4px 4px 15px #141f1f;
+  box-shadow: 2px 2px 3px #141f1f;
 }
 
 .navbar {
@@ -138,22 +138,8 @@ nav {
   font-size: 25px;
 }
 
-.contact .fa-envelope-o {
-  border: solid  #16a085 5px;
-  color: #16a085;
-  font-size: 200px;
-  margin-left: 100px;
-  margin-top: 50px;
-  padding: 50px;
-}
-
-.contact #email-address {
-  font-size: 40px;
-}
-
 .footer {
-  margin-top: 25%;
-  padding: 100px;
+  padding: 20px;
   text-align: center;
 }
 
