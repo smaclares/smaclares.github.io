@@ -1,4 +1,5 @@
 body {
+  background-color: #ecf0f1;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -22,10 +23,19 @@ nav {
   font-size: 25px;
 }
 
+#wrapper {
+  border: solid #7f8c8d 2px;
+  box-shadow: 2px 5px 45px #7f8c8d;
+  margin-bottom: 25%;
+  margin-top: 5%;
+  padding: 20px;
+}
+
 .main-image {
   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('https://images.unsplash.com/photo-1414690165279-49ab0a9a7e66?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d36ea3a39c51d6711a4ccbd1d37124b1');
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 10px;
   height: 100vh;
   margin: 0;
 }
@@ -139,7 +149,7 @@ nav {
 }
 
 .footer {
-  padding: 20px;
+  padding: 5px;
   text-align: center;
 }
 
