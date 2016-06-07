@@ -1,11 +1,18 @@
 html {
   background-color: #ecf0f1;
-  padding: 50px;
+  padding: 100px;
 }
 
 body {
   border-radius: 10px;
   box-shadow: 5px 5px 5px #888888;
+}
+
+.main-content {
+  background-color: #ecf0f1;
+  border: solid white 10px;
+  border-radius: 15%;
+  padding: 10px;
 }
 
 #main-header {
@@ -26,6 +33,15 @@ body {
   margin-right: auto;
 }
 
+#info-header {
+  text-align: center;
+}
+
 #info {
-  width: 600px;
+  margin: 40px;
+  width: 800px;
+}
+
+.footer p{
+  background-color: white;
 }
