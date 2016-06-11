@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>WeatherBee</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="weatherbee.css">
+  </head>
+
+  <body>
+
+    <div id="main" class="container">
+      <div class="row">
+        <div class="col-xs-6">
+          <section id="tagline">
+            <h1 id="title">WeatherBee</h1>
+            <p id="subtitle">Your Local Weather Snapshot</p>
+            <img id="bee-icon" src="https://d30y9cdsu7xlg0.cloudfront.net/png/33274-200.png">
+          </section>
+        </div>
+        <div class="col-xs-6">
+          <section id="weather-dashboard">
+            <p>Location:<span id="location"></span></p>
+            <p>Current Temperature: <span id="temp"></span></p>
+            <p>Sky Conditions: <span id="sky-conditions"></span></p>
+            <p id="icon"><i id="sky-icon"></i></p>
+            <br>
+            <button id="temp-change" class="btn btn-primary btn-lg">Change to Celsius</button>
+          </section>
+        </div>
+      </div>
+      <footer>
+        <p>See more @ <a href="smaclares.github.io">Samantha</a></p>
+      </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="weatherbee.js"></script>
+  </body>
+</html>

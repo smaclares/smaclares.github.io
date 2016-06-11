@@ -1,0 +1,59 @@
+body {
+  background-color: #f1c40f;
+  font-family: 'Slabo 27px', serif;
+}
+
+#tagline, #weather-dashboard {
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  padding: 80px;
+  margin-top: 15%;
+}
+
+#tagline {
+  text-align: center;
+}
+
+#tagline #title {
+  color: #f1c40f;
+  font-family: 'Homemade Apple', cursive;
+}
+
+#tagline #subtitle {
+  color: #f1c40f;
+  font-family: 'Homemade Apple', cursive;
+  text-align: right;
+}
+
+#bee-icon {
+  opacity: 0.5;
+  width: 100px;
+}
+
+#temp-change {
+  position: absolute;
+  right: 10%;
+}
+
+#location, #temp, #sky-conditions, #icon {
+  color: #f1c40f;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 30px;
+  padding: 15px;
+}
+
+#sky-conditions {
+  text-transform: capitalize;
+}
+
+#icon {
+  font-size: 50px;
+  text-align: center;
+}
+
+footer {
+  border-radius: 10px;
+  margin: 15px;
+  padding: 2px;
+  text-align: center;
+}
