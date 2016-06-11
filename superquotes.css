@@ -1,0 +1,49 @@
+html, body {
+  background: linear-gradient(#cc0000, #e60000);
+}
+
+#main {
+    background-size: cover;
+    border: solid white 10px;
+    border-radius: 10px;
+    height: 500px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 50px;
+}
+
+#main header {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+#main header h1 {
+  font-size: 150px;
+}
+
+#quote {
+  background-image: url(http://worldartsme.com/images/chat-bubble-clipart-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+
+#quote-wrapper {
+  color: white;
+  height: 500px;
+  padding: 40px;
+}
+
+#quote-text {
+  width: 300px;
+}
+
+.btn {
+  background-color: #cc0000;
+  color: white;
+  float: right;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: #006666;
+}
