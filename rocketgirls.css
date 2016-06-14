@@ -1,3 +1,10 @@
+#hero-screen {
+  background-image: url('https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=cf879cde6f0bd0a063a66bffa19a2a18');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 #main {
   margin-right: 25%;
   padding: 30px;
@@ -28,4 +35,11 @@
 #info {
   width: 600px;
   margin-right: 30%;
+}
+
+.credit {
+  bottom: 0;
+  color: white;
+  left: 50%;
+  position: absolute;
 }
